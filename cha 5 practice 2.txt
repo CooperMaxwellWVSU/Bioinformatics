@@ -1,0 +1,81 @@
+root@DESKTOP-9HQLQQ1:~# nano test.sh
+root@DESKTOP-9HQLQQ1:~#
+root@DESKTOP-9HQLQQ1:~# bash test.sh
+Hello, World!
+root@DESKTOP-9HQLQQ1:~# bash test.sh
+Hello, World!
+root@DESKTOP-9HQLQQ1:~# bash test.sh
+Hello, World!
+root@DESKTOP-9HQLQQ1:~# nano test.sh
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# cd FILEPATH
+-bash: cd: FILEPATH: No such file or directory
+root@DESKTOP-9HQLQQ1:~# cd
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# cd
+root@DESKTOP-9HQLQQ1:~# pwd
+/root
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~#
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# bash test.sh
+Hello, World!
+root@DESKTOP-9HQLQQ1:~# bash test2.sh
+test2.sh: line 2: cd: /home/Cooper/practice_folder: No such file or directory
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~#
+root@DESKTOP-9HQLQQ1:~# nanp test2.sh
+Command 'nanp' not found, did you mean:
+  command 'nano' from deb nano (7.2-2ubuntu0.1)
+Try: apt install <deb name>
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# bash test2.sh
+mkdir: cannot create directory ‘testfiles’: File exists
+root@DESKTOP-9HQLQQ1:~#
+root@DESKTOP-9HQLQQ1:~# ls
+test.sh  test2.sh  testfiles
+root@DESKTOP-9HQLQQ1:~#
+root@DESKTOP-9HQLQQ1:~# pwd
+/root
+root@DESKTOP-9HQLQQ1:~# ls
+test.sh  test2.sh  testfiles
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# bash test2.sh
+mkdir: cannot create directory ‘testfiles’: File exists
+root@DESKTOP-9HQLQQ1:~# nano test2.sh
+root@DESKTOP-9HQLQQ1:~# bash test2.sh
+root@DESKTOP-9HQLQQ1:~# ls
+test.sh  test2.sh  testfiles  testfiles2
+root@DESKTOP-9HQLQQ1:~# cd testfiles2
+root@DESKTOP-9HQLQQ1:~/testfiles2# ls
+empty.txt
+root@DESKTOP-9HQLQQ1:~/testfiles2#
+root@DESKTOP-9HQLQQ1:~/testfiles2#
+root@DESKTOP-9HQLQQ1:~/testfiles2# nano test2.sh
+root@DESKTOP-9HQLQQ1:~/testfiles2# nano test2.sh
+root@DESKTOP-9HQLQQ1:~/testfiles2# bash test3.sh
+bash: test3.sh: No such file or directory
+root@DESKTOP-9HQLQQ1:~/testfiles2# pwd
+/root/testfiles2
+root@DESKTOP-9HQLQQ1:~/testfiles2# cd ..
+root@DESKTOP-9HQLQQ1:~# ls
+test.sh  test2.sh  testfiles  testfiles2
+root@DESKTOP-9HQLQQ1:~# cd ..
+root@DESKTOP-9HQLQQ1:/# ls
+PRACTICE.txt       dev   lib.usr-is-merged  opt   sbin.usr-is-merged  usr
+UBUNTUPRACTICE     etc   lib64              proc  snap                var
+bin                home  lost+found         root  srv
+bin.usr-is-merged  init  media              run   sys
+boot               lib   mnt                sbin  tmp
+root@DESKTOP-9HQLQQ1:/# bash testfiles3.sh
+bash: testfiles3.sh: No such file or directory
+root@DESKTOP-9HQLQQ1:/# bash new1.sh
+bash: new1.sh: No such file or directory
+root@DESKTOP-9HQLQQ1:/# cd /root
+root@DESKTOP-9HQLQQ1:~# bash testfiles3.sh
+bash: testfiles3.sh: No such file or directory
+root@DESKTOP-9HQLQQ1:~# bash testfiles3.sh
+bash: testfiles3.sh: No such file or directory
+root@DESKTOP-9HQLQQ1:~#
